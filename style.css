@@ -1,0 +1,104 @@
+.bg-body-whit {
+    box-shadow: 10px 10px 10px rgb(202, 197, 197);
+}
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-food {
+    width: 40%;
+    height: 370px;
+}
+.img-food img {
+    width: 100%;
+    height: 100%; }
+.numbering-row {
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 30, 30);
+}
+.bg-img-set {
+    background-image: url("assetes/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-set {
+   height: 400px;
+   align-items: center;
+}
+.card-img img {
+    height: 300px;
+}
+.main-slider {
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 20px;
+}
+.slider-main {
+    width: 70%;
+    margin: 30px auto;
+    height: 300px;
+}
+
+.slider-img img {
+    height: 300px;
+}
+.slider-button button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.book-food {
+
+    width: 100%;
+    background-image: url("slider/mainbg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.374rem;
+}
+
+.newslatter {
+    width: 100%;
+    padding: 0 auto;
+}
+.newslatter input {
+   width: 80%;
+   height: 50px;
+}
+.list-group li {
+    display: inline !important;
+
+    
+}
+.list-wapper {
+    display: flex;
+}
+.footer-row-icon i{
+    font-size: 2rem;
+    color: white;
+    margin: 1.9rem;
+
+}
+.footer-row-icon {
+    color: white;
+}
+@media only screen and (max-width: 991px) {
+        .collapse {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bg-img-set  p {
+        font-size: 0.9rem;
+    } 
+    .bg-img-set .span{
+    display: none;
+    }
+    .Subscribe {
+        width: 100%;
+        margin-top: 10px;
+    }
+  }
